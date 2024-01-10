@@ -24,7 +24,7 @@ function getAge(vale) {
 
 btn.addEventListener("click", calculateAge);
 
-resetBtn.addEventListener("click", function() { // Added event listener for reset button
-    birthdayss.value = ""; // Clear the input field
-    results.innerHTML = ""; // Clear the result
+resetBtn.addEventListener("click", function() {
+    birthdayss.value = ""; 
+    results.innerHTML = ""; 
 });
