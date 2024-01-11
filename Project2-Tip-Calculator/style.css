@@ -59,3 +59,33 @@ h1{
     max-width: 44rem;
     border-radius: 4px;
 }
+.btncal{
+    background-color: rgb(238, 8, 20);
+    color: white;
+    padding: .5rem .1rem;
+    margin: .4rem .5rem;
+    font-size: large;
+    border: none;
+    max-width: 10rem;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+button:hover{
+    background-color: rgb(38, 110, 38);
+    color: white;
+    cursor: pointer;
+}
+
+#total{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.btncal:hover{
+    background-color: rgb(95, 10, 10);
+    color: white;
+    cursor: pointer;
+}
